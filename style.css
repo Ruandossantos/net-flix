@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(45deg, #000,#000000e5), url(https://assets.nflxext.com/ffe/siteui/vlv3/47c2bc92-5a2a-4f33-8f91-4314e9e62ef1/web/BR-pt-20240916-TRIFECTA-perspective_c2bebe15-295b-4009-9a1c-893d9f501956_large.jpg);
+}
+
+
+header{
+    background-image: linear-gradient(45deg, #000, #000000e5), url(https://assets.nflxext.com/ffe/siteui/vlv3/47c2bc92-5a2a-4f33-8f91-4314e9e62ef1/web/BR-pt-20240916-TRIFECTA-perspective_c2bebe15-295b-4009-9a1c-893d9f501956_large.jpg);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: ani_header 1s ease-in-out alternate-reverse;
+}
+@keyframes ani_header {
+    0%{
+        opacity: 0;
+    }
+}
+
+
+header
+.hd_navbar{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 30px 0px 30px;
+}
+
+header .hd_navbar img{
+    width:9%;
+}
+
+header .hd_navbar .hd_btn_entrar{
+    width: 220px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header .hd_navbar .hd_btn_entrar #selecaoidiomas{
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .8rem;
+    width: 130px;
+    height: 30px;
+}
+
+
+header .hd_navbar .hd_btn_entrar .hd_entrar{
+    background-color: #e50912;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width:  60px;
+    height: 30px;
+    transition:  .6s;
+    font-family: 'Segoe UI Variable Static Display', sans-serif;
+    font-weight:700;
+}
+
+header .hd_navbar .hd_btn_entrar .hd_entrar:hover{
+    background-color: #d8070e;
+    color: rgb(228, 227, 227);
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+
+.conteiner_sections{
+    display: flex;
+    width: 1200px;
+    height: 250px;
+    margin-top: 70px;
+    gap: 50px;
+}
+
+.main_esquerda{
+    color: white;
+    font-family: 'Segoe UI Variable Static Display', sans-serif;
+}
+
+
+.conteiner_sections .main_esquerda{
+    width: 900px;
+    height: 250px;
+}
+
+.conteiner_sections .main_esquerda h1{
+    font-size: 2.7rem;
+    padding: 10px;
+}
+
+
+.conteiner_sections .main_esquerda span{
+    font-size: .8rem;
+}
+
+
+
+.conteiner_sections .main_direito{
+    color: white;
+    width:700px;
+    height: 250px;
+    font-family: 'Segoe UI Variable Static Display', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conteiner_sections .main_direito h1{
+    text-align: center;
+    font-size: 1.5rem
+}
+
+.conteiner_sections .main_direito h1 span{
+    color: #e50912;
+    font-size: 1.5rem
+}
+
+.conteiner_sections .main_direito h2{
+ font-size: 1rem;
+ margin-top: 10px;
+ text-align: center;
+}
+
+.conteiner_sections .main_emails{
+    width: 500px;
+    height: 40px;
+    margin-top: 40px;
+}
+
+.conteiner_sections .main_emails input{
+    width: 400px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #919191;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-right: 10px;
+    outline: none;
+    color: white;
+}
+.conteiner_sections .main_emails input~label{
+    background-color: green;
+}
+
+
+.conteiner_sections .main_emails button{
+    background-color: #e50912;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    transition:  .6s;
+}
+.conteiner_sections .main_emails button:hover{
+    color: rgb(228, 227, 227);
+    transform: scale(1.1);
+}
+
+
+
+.card_filmes{
+    width: 1300px;
+    height:180px;
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    padding: 5px;
+    box-shadow: 1px 1px 14px rgba(29, 29, 29, 0.301);
+}
+
+.card_filmes div{
+    width: 400px;
+    height: 170px;
+    box-shadow: 1px 1px 14px rgba(29, 29, 29, 0.301);
+    position: relative;
+    
+}
+.card_filmes .um img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    opacity: .7;
+  
+}
+
+.card_filmes .um button{
+    background-color: #d8070e;
+    color: white;
+    border-radius: 5px;
+    width: 70px;
+    height: 25px;
+    border: none;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transition:  .6s;
+}
+
+.card_filmes .um button:hover{
+    color: rgb(228, 227, 227);
+    transform: scale(1.1);
+}
+
+.card_filmes .dois img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    opacity: .7;
+}
+.card_filmes .dois button{
+    background-color: #d8070e;
+    color: white;
+    border-radius: 5px;
+    width: 70px;
+    height: 25px;
+    border: none;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transition:  .6s;
+}
+.card_filmes .dois button:hover{
+    color: rgb(228, 227, 227);
+    transform: scale(1.1);
+}
+
+
+
+
+
+.card_filmes .tres img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    opacity: .7;
+}
+.card_filmes .tres button{
+    background-color: #d8070e;
+    color: white;
+    border-radius: 5px;
+    width: 70px;
+    height: 25px;
+    border: none;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transition:  .6s;
+}
+.card_filmes .tres button:hover{
+    color: rgb(228, 227, 227);
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+.card_filmes .quatro img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    opacity: .7;
+}
+.card_filmes .quatro button{
+    background-color: #d8070e;
+    color: white;
+    border-radius: 5px;
+    width: 70px;
+    height: 25px;
+    border: none;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transition:  .6s;
+}
+
+.card_filmes .quatro button:hover{
+    color: rgb(228, 227, 227);
+    transform: scale(1.1);
+}

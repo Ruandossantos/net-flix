@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI Variable Static Display', sans-serif;
+}
+body{
+    background-image: linear-gradient(45deg, #070505 ,#6d6b6bb9),url(../imgs/card-series/ambulace/Ambulance_Michael_Bay_Jake_Gyllenhaal_Filme_CDL_1920x1080_01-1920x1024.jpg);
+    background-size: cover;
+}
+header{
+    height: 7vh;
+    width: 100%;
+    padding: 10px;
+    
+}
+header nav{
+    width: 500px;
+    height: 400px;
+}
+
+header nav img{
+    width:23%;
+    margin-left: 5%;
+}
+.conteiner{
+    width: 100%;
+    height: 93vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.conteiner-esquerda{
+    width: 700px;
+    height: 300px;
+    color: rgb(255, 255, 255);
+}
+
+.conteiner-esquerda h1{
+    font-size: 2rem;
+}
+
+.conteiner .conteiner-esquerda p{
+    font-size: .9rem;
+    font-weight: 600;
+    margin-top: 20px;
+    color: antiquewhite;
+}
+.conteiner .conteiner-esquerda p span{
+    padding: 2px;
+    font-size: .7rem;
+    border: 1px antiquewhite solid;
+}
+
+.conteiner .conteiner-esquerda article{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+
+.conteiner-atores{
+    height: 200px;
+    width: 650px;
+    margin-top: 40px;
+}
+
+.atores{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+}
+.atores div{
+    width: 100px;
+    height: 70px;
+}
+.atores div img{
+    width: 100%;
+}
